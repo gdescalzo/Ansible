@@ -7,8 +7,8 @@
   tasks:
     ## SLES12 SPX
     #- include_tasks: suse-sles12-ansible-install.yml
-    - include_tasks: suse-sles12-docker-install.yml              # Instala docker (sin docker-compose)
-    - include_tasks: suse-sles12-docker-compose-install.yml      # Instala docker-compose
+    #- include_tasks: suse-sles12-docker-install.yml              # Instala docker (sin docker-compose)
+    #- include_tasks: suse-sles12-docker-compose-install.yml      # Instala docker-compose
     #- include_tasks: suse-sles12-mysql-install.yml
     #- include_tasks: suse-sles12-mysql-config.yml
     #- include_tasks: suse-sles12-so-proxy.yml
