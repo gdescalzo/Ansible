@@ -22,7 +22,7 @@
         - /etc/zypp/credentials.d/*
 
     - name: SLES15 SP2 Register
-      command: SUSEConnect -r DE17B708784B38 -p SLES/15.2/x86_64
+      command: SUSEConnect -r xxxxxxxxxxxx -p SLES/15.2/x86_64
 
     - name: SUSEConnect adding SLE Modules
       command: "{{ item }}"

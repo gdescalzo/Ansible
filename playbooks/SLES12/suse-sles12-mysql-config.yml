@@ -16,7 +16,7 @@
 #    command: mysql --user root --password={{ tpassword.stdout }} --connect-expired-password --execute="SET GLOBAL validate_password.policy = 0;"
 
   - name: update expired root user password
-    command: mysql --user root --password={{ tpassword.stdout }} --connect-expired-password --execute="ALTER USER 'root'@'localhost' IDENTIFIED BY 'Banco123';"
+    command: mysql --user root --password={{ tpassword.stdout }} --connect-expired-password --execute="ALTER USER 'root'@'localhost' IDENTIFIED BY 'xxxxxxxx';"
 
 
 #  - name: Change the authentication plugin of MySQL root user to mysql_native_password

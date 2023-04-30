@@ -4,7 +4,7 @@
     command: "{{ item }}"
     with_items:
        - /usr/sbin/SUSEConnect --cleanup
-       - /usr/sbin/SUSEConnect --regcode DE17B708784B38
+       - /usr/sbin/SUSEConnect --regcode XXXXXXXXXXXXX
        - /usr/sbin/SUSEConnect -p PackageHub/12.5/x86_64 -r ''
        - /usr/sbin/SUSEConnect -p sle-module-legacy/12/x86_64 -r ''
        - /usr/sbin/SUSEConnect -p sle-module-containers/12/x86_64 -r ''
