@@ -16,7 +16,7 @@ PROXY_ENABLED="yes"
 # Some programs (e.g. lynx, arena and wget) support proxies, if set in
 # the environment. 
 # Example: HTTP_PROXY="http://proxy.provider.de:3128/"
-HTTP_PROXY="http://10.214.130.110:80"
+HTTP_PROXY="http://10.10.10.10:80"
 
 ## Type:	string
 ## Default:	""
