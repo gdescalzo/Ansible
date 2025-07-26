@@ -1,5 +1,5 @@
 ---
-#- hosts: consulPROD
+#- hosts: some_host
 - hosts: devMTZ
 #  vars_files:
 #    - ../vars/
